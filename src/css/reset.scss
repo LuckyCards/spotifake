@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&family=Public+Sans:wght@500;700;900&display=swap");
+
+/* font-family: 'Nunito', sans-serif;
+  font-family: 'Public Sans', sans-serif;*/
+
+:root {
+  --scrollbar-color: #909090;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+section,
+main {
+  scrollbar-width: thin;
+  transition: scrollbar-color 0.2s;
+  scrollbar-color: transparent transparent;
+
+  &:hover {
+    scrollbar-color: var(--scrollbar-color) transparent;
+  }
+  &::-webkit-scrollbar {
+    width: 16px;
+    // height: 100%;
+  }
+  &::-webkit-scrollbar-track {
+    border: 15px solid transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    transition: 0.2s;
+    box-shadow: inset 0 0 100px var(--scrollbar-color);
+    border: 5px solid transparent;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    cursor: n-resize;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 100px #aaaaaa;
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+:root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "As mais tocadas no seu 2022",
+    "img": "https://wrapped-images.spotifycdn.com/image/yts-2022/default/your-top-songs-2022_default_pt-BR.jpg",
+    "type": "Playlist",
+    "author": "Spotify"
+  },
+  {
+    "name": "Neoni",
+    "img": "https://img.karaoke-lyrics.net/img/artists/737_artid/73797/neoni-621452.jpg",
+    "type": "Artista"
+  },
+  {
+    "name": "Ursine Vulpine",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba2a6f00d98bd14e8fc8582df",
+    "type": "Artista"
+  },
+  {
+    "name": "Unsecret",
+    "img": "https://i.scdn.co/image/ab6761610000e5eb581d99de0efbc98b99fb4e04",
+    "type": "Artista"
+  },
+  {
+    "name": "Luisa Sonza",
+    "img": "https://th.bing.com/th/id/OIP.2XrsMSSGqKHgu4wp1J4dYAHaHa?rs=1&pid=ImgDetMain",
+    "type": "Artista"
+  },
+  {
+    "name": "Imaigne Dragons",
+    "img": "https://lastfm.freetls.fastly.net/i/u/ar0/c6ac49c97e218f3ff3ea5069cca327b5.jpg",
+    "type": "Artista"
+  },
+  {
+    "name": "Treino diário da academia",
+    "img": "https://th.bing.com/th/id/OIP.39TzLcH-2TCWokJB6RxjPQHaGd?rs=1&pid=ImgDetMain",
+    "type": "Playlist",
+    "author": "Podenhos"
+  },
+  {
+    "name": "Músicas POP para analisar",
+    "img": "https://i.scdn.co/image/ab67706c0000da8481b02b2a589b6fd6284c1054",
+    "type": "Playlist",
+    "author": "Blimblim"
+  },
+  {
+    "name": "Living in the Shadows",
+    "img": "https://i.scdn.co/image/ab67616d00001e0213f1a15c18f40a991691f3d6",
+    "type": "Álbum",
+    "Author": "Matthew Perryman Jones"
+  },
+  {
+    "name": "Unsecret",
+    "img": "https://cdna.artstation.com/p/assets/images/images/015/442/930/large/wojtek-kapusta-unsecret-cover.jpg?1548346520",
+    "type": "Artista"
+  }
+]

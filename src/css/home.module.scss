@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #000;
+  padding: 8px;
+
+  .grid {
+    display: grid;
+    height: 100%;
+    grid-template-areas:
+      "left-sidebar main-view right-sidebar"
+      "now-playing-bar now-playing-bar now-playing-bar";
+
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 8px;
+
+    .leftSidebar {
+      grid-area: left-sidebar;
+      position: relative;
+      width: 72px;
+      height: 100%;
+    }
+
+    .nowPlayingBar {
+      grid-area: now-playing-bar;
+      position: relative;
+      width: 100%;
+      height: 72px;
+    }
+  }
+}

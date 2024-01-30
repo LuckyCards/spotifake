@@ -1,0 +1,79 @@
+@import "../../css/colorScheme.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 450px;
+  height: calc(100vh - 112px);
+  gap: 8px;
+
+  div {
+    background: var(--background-base);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    width: 100%;
+    align-items: center;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  .libraryAside {
+    display: flex;
+    align-items: start;
+    height: calc(100% - 112px);
+
+    button {
+      background: none;
+      border: none;
+      width: 48px;
+      height: 48px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+
+    section {
+      overflow-x: hidden;
+      height: 100%;
+      width: 60px;
+    }
+
+    li {
+      margin: 16px 0 16px 0;
+      &.artist {
+        .buttonImg {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .buttonImg {
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .buttonIcon {
+    color: #b3b3b3;
+    transition: color 0.2s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      transition: color 0.4s ease-out;
+      color: #fff;
+    }
+  }
+}
