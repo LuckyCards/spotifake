@@ -4,6 +4,7 @@
 # Comandos Utilizados:
 * Npm install -D sass
 * npm i @phosphor-icons/react
+* npm i react-h5-audio-player
 
 
 ### bingadas

@@ -1,5 +1,5 @@
 import style from "./style.module.scss";
-import { House, MagnifyingGlass, Stack } from "@phosphor-icons/react";
+import { House, List, MagnifyingGlass, Stack } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
 import ShowItems from "./showItems.jsx";
 
@@ -27,7 +27,7 @@ export default function LeftSidebar() {
 
       <div className={style.libraryAside}>
         <button className={style.library}>
-          <Stack size={28} className={style.buttonIcon} />
+          <List size={28} className={style.buttonIcon} />
         </button>
 
         <section>
@@ -38,7 +38,6 @@ export default function LeftSidebar() {
                 src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
               />
             </li>
-
 
             {items.map((e, i) => (
               <ShowItems data={e} key={i} />

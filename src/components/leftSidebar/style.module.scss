@@ -30,7 +30,7 @@
   .libraryAside {
     display: flex;
     align-items: start;
-    height: calc(100% - 112px);
+    height: calc(100% - 104px);
 
     button {
       background: none;
@@ -41,7 +41,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
 
     section {
@@ -49,13 +49,17 @@
       height: 100%;
       width: 60px;
     }
+    
+    ul {
+      padding-top: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
 
-    li {
-      margin: 16px 0 16px 0;
-      &.artist {
-        .buttonImg {
-          border-radius: 50%;
-        }
+    .artist {
+      .buttonImg {
+        border-radius: 50%;
       }
     }
   }

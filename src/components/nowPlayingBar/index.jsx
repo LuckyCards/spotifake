@@ -1,5 +1,14 @@
 import style from "./style.module.scss";
+import ElementMiddle from "./elements/elementsMiddle";
 
 export default function NowPlayingBar() {
-  return <div className={style.container}> oi oi o io io i ooi oi oi oio io io ioio ioi o</div>;
+  return (
+    <div className={style.container}>
+      <div className={style.elementsLeft}></div>
+
+      <div className={style.elementsMiddle}> <ElementMiddle/> </div>
+
+      <div className={style.elementsRight}></div>
+    </div>
+  );
 }
