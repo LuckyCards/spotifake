@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { api } from "../../lib/api";
 
 export default function AudioPlayer() {
   const [playlist, setPlaylist] = useState([]);
@@ -10,17 +11,7 @@ export default function AudioPlayer() {
 
   useEffect(() => {
     console.log("1");
-    fetch("http://192.168.1.134:3005/playlist/getall?page=1&count=10", {
-      method: "GET",
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        console.log("oiii");
-      });
+    api.get('/').then(res => console.log(res))
     console.log("2");
   }, []);
 
